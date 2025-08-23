@@ -1,0 +1,26 @@
+Legal LLM Evaluation Report
+==================================================
+
+Benchmark: benchmarks/legal_humaneval.jsonl
+Total samples: 2
+Models evaluated: mock-legal
+
+Model Performance Summary:
+------------------------------
+
+mock-legal:
+  Strategy: role_based
+    pass@1: 0.000
+    avg_citation_accuracy: 0.500
+    avg_reasoning_coherence: 0.450
+    avg_completeness: 0.000
+    avg_hallucination_rate: 0.000
+
+Comparative Analysis:
+--------------------
+
+Efficiency Metrics:
+mock-legal:
+  Avg response time: 0.50s
+  Avg tokens: 187
+  Error rate: 0.0%

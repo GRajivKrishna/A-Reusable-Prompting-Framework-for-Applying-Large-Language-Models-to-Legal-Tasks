@@ -1,0 +1,70 @@
+{
+  "benchmark_info": {
+    "path": "benchmarks/intellectual_property_humaneval.jsonl",
+    "total_samples": 2,
+    "models_evaluated": [
+      "mock-legal"
+    ]
+  },
+  "model_results": {
+    "mock-legal": {
+      "role_based": {
+        "pass_at_k": {
+          "pass@1": 1.0
+        },
+        "aggregate_metrics": {
+          "avg_citation_accuracy": 0.5,
+          "avg_reasoning_coherence": 0.3,
+          "avg_completeness": 0.5,
+          "avg_hallucination_rate": 0.0
+        },
+        "detailed_results": [
+          {
+            "citation_accuracy": 1.0,
+            "reasoning_coherence": 0.3,
+            "completeness": 1.0,
+            "hallucination_rate": 0.0,
+            "response_time": 0.0,
+            "token_count": 0
+          },
+          {
+            "citation_accuracy": 0.0,
+            "reasoning_coherence": 0.3,
+            "completeness": 0.0,
+            "hallucination_rate": 0.0,
+            "response_time": 0.0,
+            "token_count": 0
+          }
+        ],
+        "task_results": [
+          "passed",
+          "failed"
+        ],
+        "performance_metrics": {
+          "total_tokens": 423.8,
+          "avg_tokens_per_response": 211.9,
+          "total_response_time": 1.002213954925537,
+          "avg_response_time": 0.5011069774627686,
+          "error_rate": 0.0,
+          "total_responses": 2
+        }
+      }
+    }
+  },
+  "comparative_analysis": {
+    "best_performing_models": {
+      "pass@1": {
+        "model": "mock-legal",
+        "score": 1.0
+      }
+    },
+    "task_type_performance": {},
+    "efficiency_metrics": {
+      "mock-legal": {
+        "avg_response_time": 0.5011069774627686,
+        "avg_tokens_per_response": 211.9,
+        "error_rate": 0.0
+      }
+    }
+  }
+}
