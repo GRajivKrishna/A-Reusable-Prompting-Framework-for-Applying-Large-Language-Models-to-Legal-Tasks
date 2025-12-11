@@ -1,7 +1,4 @@
-"""
-Free and Open Source LLM Providers
-No API keys required - uses local/free models
-"""
+
 
 import time
 import requests
