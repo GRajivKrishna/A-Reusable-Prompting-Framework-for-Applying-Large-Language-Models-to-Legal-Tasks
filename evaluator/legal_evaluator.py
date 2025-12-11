@@ -1,6 +1,4 @@
-"""
-Legal LLM Evaluator - HumanEval inspired framework for legal reasoning assessment
-"""
+
 
 import json
 import time
